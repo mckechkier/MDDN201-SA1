@@ -1,1 +1,8 @@
-# mddn201-sa1
+I've finally got my git hub working! I was having heaps of trouble commiting using the terminal as it didn't register my folders, it would just come up with "No such file or directory". A classmate told me to try using git hub desktop which we had used last trimester for a different class and it worked! Yay.
+
+My final website has a simple but consistent theme to it. Varying shades of purples and yellows, with a soft off white background. My web page is dedicated specifically to the infrastructure that allows us to connect to internet in our homes and buildings. It brings to life the fact that the internet truly is all around us; underneath and above. It isn't just as simple as a quick connection to our devices. I use the analogy of this process being a 'relay race', in which there are six key players involved.
+
+I'm really pleased with the final look I have. I think the main title at the top is really cool and gives me 'retro 2000s internet vibes'. I really like the font I have with my paragraphs, and the yellow and purple together as it has a soft feel. The borders around my images are just to give them a little flair. I also added in a little interactive element with the hover over my links, and hovers over specific important text as the viewer is reading. Just to keep them interested and add a fun wee element. 
+
+This first mini assignment has definitely made me much more confident with code, I have a little experience in coding websites but have always struggled with the minor details like having things responsive so they don't move around as the page size changes. Looking into the code and playing around with it, adding in bits I'm familiar with has been a really effective way to learn! 
+

@@ -1,0 +1,157 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=EB+Garamond:ital@1&display=swap');
+</style>
+
+*{
+	box-sizing: border-box; 
+	/* This makes the widths of elements more consistent
+		Full details here https://css-tricks.com/box-sizing/ */
+}
+
+body{
+	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	font-family: sans-serif;
+	/*background-image: url(../img/IMG-12.jpg);*/
+	background-color: #FBF5FE;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+header{
+	background-color: #9808F9;
+	color: white; /* more readable on an orange background */
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1 {
+	color: #E4C0F9;
+   text-shadow: -1px 0 #9808F9, 0 1px #9808F9, 1px 0 #9808F9, 0 -1px #9808F9;
+	text-align: center; 
+	font-family: 'Playfair Display', serif;
+	
+}
+
+h1:hover{
+color: #9808F9;
+text-shadow: -1px 0 #9808F9, 0 1px #9808F9, 1px 0 #9808F9, 0 -1px #9808F9;
+	}
+
+h2:hover{
+		color:#CAB108;
+		text-shadow: -1px 0 #CAB108, 0 1px #CAB108, 1px 0 #CAB108, 0 -1px #CAB108;
+	}
+
+h2 {
+  color: #FEFBE7;	
+  text-shadow: -1px 0 #CAB108, 0 1px #CAB108, 1px 0 #CAB108, 0 -1px #CAB108;
+  font-family: 'Playfair Display', serif;
+    
+}
+
+h3 {
+	color: #9808F9; 
+	font-family: 'EB Garamond', serif;
+}
+
+p {
+	color: #E4C0F9;
+	font-family: 'EB Garamond', serif;
+	font-size: 18px;
+}
+
+h4 {
+	color: #E4C0F9;
+   text-shadow: -1px 0 #9808F9, 0 1px #9808F9, 1px 0 #9808F9, 0 -1px #9808F9;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+}
+
+h4:hover{
+color: #9808F9;
+text-shadow: -1px 0 #9808F9, 0 1px #9808F9, 1px 0 #9808F9, 0 -1px #9808F9;
+	}
+
+p:hover{
+color: #D49AFA;	
+}
+
+nav{
+	font-family: 'EB Garamond', serif;
+	width: 100%;
+	height: 60px;
+	background-color: #F9F1C0;	
+	color: #9808F9; 
+	text-align: center;
+}
+
+nav a, nav h3{
+	float: left;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+	color: #CAB108;
+}
+
+img {
+	border: 10px solid #F9F1C0;
+}
+
+ul {
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+}
+
+ul a:hover{
+	color:#CAB108;
+}
+
+.References{
+background-color: #F9F1C0;
+}
+/* Simple grid */
+.g-row{
+	width: 70%;
+	overflow: hidden;
+	color: #B962F3;
+}
+
+
+.g-row img{
+	float:left;
+	width: 100%; /*This makes all images in grids to be the size of their cell */
+	border-radius: 50%;
+}
+
+.g-30{
+	width: 30%;
+	float: left;
+	margin: 20px;
+}
+
+
+.show{
+	border: 1px solid blue;
+	padding: 2px;
+}
+
+.padded{
+	padding: 20px; /* I add this to cells to add a little padding*/
+}
